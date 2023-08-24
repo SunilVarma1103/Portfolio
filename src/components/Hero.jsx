@@ -10,7 +10,7 @@ const Hero = () => {
         <div
           data-aos="slide-left"
           data-aos-delay="1200"
-          className="absolute h-full md:w-4/12 w-8/12 top-0 right-0 bg-primaryLinear bottom-0 -z-10"
+          className="absolute h-full md:w-4/12 w-6/12 top-0 right-0 bg-primaryLinear bottom-0 -z-10"
         >
           <h1 className="rotate-90 absolute top-[30%] right-[-20%] text-[#EAF2FA]">
             {hero.firstName}{" "}
@@ -23,7 +23,9 @@ const Hero = () => {
           <h2>{hero.title}</h2>
           <br />
           <div className="flex justify-end">
-            <button className="btn">{hero.btnText}</button>
+            <a href="mailto:varmasunil1103@gmail.com">
+              <button className="btn">{hero.btnText}</button>
+            </a>
           </div>
           <div className="flex flex-col gap-10 mt-10">
             {hero.hero_content.map((content, i) => (

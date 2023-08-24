@@ -33,9 +33,11 @@ const Hireme = () => {
           >
             <p className="leading-7">{Hireme.para}</p>
             <br />
-            <button className="btn bg-dark_primary text-white">
-              {Hireme.btnText}
-            </button>
+            <a href="mailto:varmasunil1103@gmail.com">
+              <button className="btn bg-dark_primary text-white">
+                {Hireme.btnText}
+              </button>
+            </a>
           </div>
         </div>
       </div>

@@ -162,7 +162,7 @@ export const content = {
         title: "PG Rental Saas Application",
         image: project1,
         detail:
-          "I have build the complete Saas solution for the PG and hotel rentals. I have used the Nexus. ReactJS. MapBox, as my tech stack. Also, I have integrated the stripe payment system in this web based application.",
+          "I have build the complete Saas solution for the PG and hotel rentals. I have used the NextJs, ReactJS, MapBox as my tech stack. Also, I have integrated the stripe payment system in this web based application.",
       },
       {
         title: "Expense Management System",
